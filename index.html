@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="form-wrapper">
+            <div class="form-wrapper__title">
+                Расторжение договора страхования на время перелёта
+            </div>
+            <div class="form-wrapper__form">
+                <div class="form-wrapper__section">
+                    <div class="form-group">
+                        <label for="name-1">Фамилия<span class="red">*</span></label>
+                        <input type="text" id="name-1" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="name-2">Имя<span class="red">*</span></label>
+                        <input type="text" id="name-2" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="name-3">Отчество (при наличии)</label>
+                        <input type="text" id="name-3" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="client_phone">Мобильный телефон<span class="red">*</span></label>
+                        <div class="input-group date">
+                            <input type="text" name="PROPERTY[298][0]" id="client_phone" class="form-control custom-input" value="" required="" inputmode="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="document_issued_by">Адрес</label>
+                        <input type="text" name="PROPERTY[297][0]" id="document_issued_by" class="form-control custom-input dadata-address" value="">
+                        <div class="dadata-address_wrap"></div>
+                    </div>
+                </div>
+                <div class="form-wrapper__section">
+                    <div class="form-group">
+                        <label for="doctype">Документ, удостоверяющий личность<span class="red">*</span></label>
+                        <div class="input-group input-group_radio">
+                            <label class="form-radio" for="doctype_password">
+                                <input class="inp-rdb" value="1" name="PROPERTY[294][0]" id="doctype_password" type="radio">
+                                <span></span> Паспорт РФ
+                            </label>
+                            <label class="form-radio" for="doctype_birth_certificate">
+                                <input class="inp-rdb" value="62055" name="PROPERTY[294][0]" id="doctype_birth_certificate" type="radio">
+                                <span></span> Свидетельство о рождении
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name-4">Серия<span class="red">*</span></label>
+                        <input type="text" id="name-4" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="name-5">Номер<span class="red">*</span></label>
+                        <input type="text" id="name-5" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="name-6">Кем выдан<span class="red">*</span></label>
+                        <input type="text" id="name-6" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="document_issue_date">Дата выдачи документа<span class="red">*</span></label>
+                        <input type="text" name="PROPERTY[296][0]" id="document_issue_date" class="form-control custom-input" value="" inputmode="text">
+                    </div>
+                </div>
+                <div class="form-wrapper__section">
+                    <div class="form-group">
+                        <label for="name-7">Номер полиса<span class="red">*</span></label>
+                        <input type="text" id="name-7" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="name-8">Номер авиабилета<span class="red">*</span></label>
+                        <input type="text" id="name-8" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="name-9">Страховая сумма<span class="red">*</span></label>
+                        <input type="text" id="name-9" name="" class="form-control custom-input" value="" required="">
+                    </div>
+                </div>
+                <div class="form-wrapper__bottom">
+                    <label class="cbLabel form-check-labe" for="confirmRules2">
+                        <input name="confirmRules2" id="confirmRules2" type="checkbox">
+                        <span></span><small>Я ознакомлен/а и подтверждаю согласие на <a href="#personalData" data-toggle="modal" data-target="#personalData">обработку персональных данных</a></small>
+                    </label>
+                    <button type="submit" class="btn btn-primary btn-block" name="">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
